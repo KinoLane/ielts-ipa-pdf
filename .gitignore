@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物（可按需保留）
+words_data.json
+youdao_cache.json
+ipa_data.json
+*_带音标.pdf
+
+# OS
+.DS_Store
+Thumbs.db
