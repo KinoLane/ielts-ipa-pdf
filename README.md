@@ -1,6 +1,12 @@
 # ielts-ipa-pdf
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-orange)]()
+
 给「雅思 / 英语单词」PDF 表格自动加一列**音标**，并把词表转成排版精美的 PDF。
+
+![示例输出](./assets/example.png)
 
 输入：`编号 | 单词 | 释义` 格式的词汇 PDF（如雅思单词书）。
 输出：`编号 | 单词 | 释义 | 音标` 的新 PDF，音标来自**有道词典（英式 ukphone）**，中英文与音标用**完整嵌入字体**渲染，避免乱码/“口口”。

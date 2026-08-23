@@ -10,6 +10,10 @@ words_data.json
 youdao_cache.json
 ipa_data.json
 *_带音标.pdf
+*.log
+fpdf_warn.txt
+skill_test_out/
+check_*.png
 
 # OS
 .DS_Store
